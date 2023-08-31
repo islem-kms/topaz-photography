@@ -4,14 +4,20 @@ const transitonVariants = {
   initial: {
     x: '100%',
     width: '100%',
+    //y: '0%',
+    //height: '100%'
   },
   animate: {
     x: '0%',
     width: '0%',
+    //y: '100%',
+    //height: '100%'
   },
   exit: {
     x: ['0%', '100%'],
     width: ['0%', '100%'],
+    //y: ['0%'],
+    //height: ['0%', '100%']
   }
 }
 
